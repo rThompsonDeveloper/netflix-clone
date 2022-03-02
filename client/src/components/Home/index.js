@@ -2,6 +2,8 @@
 import Faq from "../Faq";
 import StoryCard from "../StoryCard";
 import RegisterCTA from "../RegisterCTA";
+import Nav from "../Nav";
+import Footer from "../Footer";
 
 // Static Data
 import { cards } from "./storyCards";
@@ -18,6 +20,7 @@ import {
 const Home = () => {
   return (
     <>
+      <Nav />
       <BannerWrapper>
         <Gradient>
           <BannerContent>
@@ -37,6 +40,7 @@ const Home = () => {
         />
       ))}
       <Faq />
+      <Footer />
     </>
   );
 };

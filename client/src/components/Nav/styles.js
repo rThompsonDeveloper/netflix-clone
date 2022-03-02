@@ -5,12 +5,12 @@ export const Wrapper = styled.div`
   position: relative;
   max-width: 1920px;
   margin: 0 auto;
-  margin-bottom: -90px;
   width: 100%;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  margin-bottom: -90px;
   z-index: 10;
 `;
 
@@ -35,7 +35,6 @@ export const Signin = styled.button`
   font-size: 1rem;
   border-radius: 4px;
   cursor: pointer;
-  transition: all 0.3s ease-in-out;
   &:hover {
     background-color: #c7000a;
   }
