@@ -8,7 +8,12 @@ const RegisterCTA = () => {
         Ready to watch? Enter your email to create or restart your membership.
       </Text>
       <Wrapper>
-        <Input placeholder="Email Address" />
+        <Input
+          placeholder="Email Address"
+          name="email"
+          id="email"
+          type="email"
+        />
         <Button>Get Started</Button>
       </Wrapper>
     </>

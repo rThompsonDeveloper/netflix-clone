@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 
+// Components
+import FooterCondensed from "../FooterCondensed";
+
 // Images
 import logo from "../../Logo.png";
 
@@ -17,6 +20,9 @@ import {
   Text,
   Checkbox,
   Label,
+  SignupWrapper,
+  Signup,
+  LargeText,
 } from "./styles";
 
 const Login = () => {
@@ -57,8 +63,21 @@ const Login = () => {
               </div>
               <Text>Need Help?</Text>
             </Section>
+            <Section>
+              <SignupWrapper>
+                <LargeText>New to Netflix?</LargeText>
+                <Link to="/">
+                  <Signup>Sign up now</Signup>
+                </Link>
+              </SignupWrapper>
+            </Section>
+            <Label>
+              This page is protected by Google reCAPTCHA to ensure you're not a
+              bot.
+            </Label>
           </Form>
         </Container>
+        <FooterCondensed dark={true} />
       </Background>
     </>
   );

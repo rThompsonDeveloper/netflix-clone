@@ -16,6 +16,7 @@ export const Logo = styled.img`
 `;
 
 export const Container = styled.div`
+  padding-top: 60px;
   background: rgba(0, 0, 0, 0.4);
   position: relative;
   top: 0;
@@ -94,8 +95,6 @@ export const Signin = styled.button`
   }
 `;
 
-export const Footer = styled.div``;
-
 export const Text = styled.p`
   font-size: 14px;
   color: #b3b3b3;
@@ -118,6 +117,25 @@ export const Checkbox = styled.input`
   width: 18px;
   background-color: #b3b3b3 !important;
   margin-right: 4px;
+  cursor: pointer;
+`;
+
+export const LargeText = styled.p`
+  color: #b3b3b3;
+  font-size: 1em;
+  margin-right: 10px;
+`;
+
+export const Signup = styled.p`
+  font-size: 1em;
+  color: white;
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
+export const SignupWrapper = styled.div`
+  display: flex;
 `;
 
 export const Label = styled.label`
